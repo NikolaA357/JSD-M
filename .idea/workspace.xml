@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf26b4ea-c4d4-4f5d-9424-a4c1baefd715" name="Default" comment="" />
+    <list default="true" id="bf26b4ea-c4d4-4f5d-9424-a4c1baefd715" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example.dot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/example.test" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/execute.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar.dot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grammar.tx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsd/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsd/jsd/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsd/jsd/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsd/jsd/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsd/jsd/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsd/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/views.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,46 +33,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="loader.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="loader.py" pinned="false" current-in-tab="true">
         <entry file="file://C:/Python27/Lib/unittest/loader.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
               <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grammar.tx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grammar.tx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="184" lean-forward="false" selection-start-line="15" selection-start-column="184" selection-end-line="15" selection-end-column="184" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="execute.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/execute.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -91,7 +78,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -114,26 +100,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JSD-M" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JSD-M" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="jsd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test.py (1)">
+  <component name="RunManager" selected="Python tests.Unittests in test.py">
     <configuration default="false" name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,6 +154,21 @@
       <module name="JSD-M" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test.py (2)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aplikacija" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="JSD-M" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/aplikacija/test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
@@ -248,14 +236,16 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test.py (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test.py (2)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test.py (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test.py (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test.py (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +269,9 @@
     <history-entry file="Unittests_in_test_py - 2017.07.24 at 18h 21m 47s.xml">
       <configuration name="Unittests in test.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_py - 2017.07.26 at 18h 21m 14s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_in_test_py_(1) - 2017.07.24 at 18h 23m 16s.xml">
       <configuration name="Unittests in test.py (1)" configurationId="tests" />
     </history-entry>
@@ -291,10 +284,18 @@
     <history-entry file="Unittests_in_test_py_(1) - 2017.07.24 at 18h 27m 48s.xml">
       <configuration name="Unittests in test.py (1)" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_py_(2) - 2017.07.26 at 18h 18m 36s.xml">
+      <configuration name="Unittests in test.py (2)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py_(2) - 2017.07.26 at 18h 18m 48s.xml">
+      <configuration name="Unittests in test.py (2)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py_(2) - 2017.07.26 at 18h 20m 39s.xml">
+      <configuration name="Unittests in test.py (2)" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -342,39 +343,30 @@
     </entry>
     <entry file="file://C:/Python27/Lib/unittest/loader.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="203" column="0" lean-forward="false" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grammar.tx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="184" lean-forward="false" selection-start-line="15" selection-start-column="184" selection-end-line="15" selection-end-column="184" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/execute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/grammar.tx" />
+    <entry file="file://$PROJECT_DIR$/execute.py" />
+    <entry file="file://$PROJECT_DIR$/views.py" />
   </component>
 </project>
