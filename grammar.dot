@@ -1,0 +1,88 @@
+
+    digraph xtext {
+    fontname = "Bitstream Vera Sans"
+    fontsize = 8
+    node[
+        shape=record,
+        style=filled,
+        fillcolor=aliceblue
+    ]
+    nodesep = 0.3
+    edge[dir=black,arrowtail=empty]
+
+
+60640536 -> 60686384[arrowtail=diamond, dir=both, headlabel="parameters 0..*"]
+60640536[ label="{IntegerField|}"]
+
+60639120 -> 60686384[arrowtail=diamond, dir=both, headlabel="parameters 0..*"]
+60639120[ label="{URLField|}"]
+
+60287336 -> 60287808[arrowtail=diamond, dir=both, headlabel="models 0..*"]
+60287336[ label="{Models|}"]
+
+60288280 -> 60637232[arrowtail=diamond, dir=both, headlabel="datatype "]
+60288280[ label="{ModelElement|+name:ID\l}"]
+
+60639592[ label="{ForeignKey|+model:ID\l}"]
+
+60687328[ label="{Number|[0-9]+}"]
+
+60688272[ label="{Value|True}"]
+
+60640064 -> 60686384[arrowtail=diamond, dir=both, headlabel="parameters 0..*"]
+60640064[ label="{DateTimeField|}"]
+
+60637232 -> 60637704[arrowtail=diamond, dir=both, headlabel="textField "]
+60637232 -> 60638176[arrowtail=diamond, dir=both, headlabel="CharField "]
+60637232 -> 60638648[arrowtail=diamond, dir=both, headlabel="EmailField "]
+60637232 -> 60639120[arrowtail=diamond, dir=both, headlabel="website "]
+60637232 -> 60639592[arrowtail=diamond, dir=both, headlabel="foreignkey "]
+60637232 -> 60640064[arrowtail=diamond, dir=both, headlabel="dateTimeField "]
+60637232 -> 60640536[arrowtail=diamond, dir=both, headlabel="integerField "]
+60637232[ label="{DataType|}"]
+
+60686856[ label="{Max_Length|+number:Number\l}"]
+
+60638648 -> 60686384[arrowtail=diamond, dir=both, headlabel="parameters 0..*"]
+60638648[ label="{EmailField|}"]
+
+60638176 -> 60686384[arrowtail=diamond, dir=both, headlabel="parameters 0..*"]
+60638176[ label="{CharField|}"]
+
+60287808 -> 60288280[arrowtail=diamond, dir=both, headlabel="elements 0..*"]
+60287808[ label="{Model|+name:ID\l}"]
+
+60687800[ label="{Null|+value:Value\l}"]
+
+60686384 -> 60687800[arrowtail=diamond, dir=both, headlabel="null "]
+60686384 -> 60686856[arrowtail=diamond, dir=both, headlabel="max_length "]
+60686384[ label="{Parameter|}"]
+
+60637704 -> 60686384[arrowtail=diamond, dir=both, headlabel="parameters 0..*"]
+60637704[ label="{TextField|}"]
+
+60286864[ label="{*OBJECT|}"]
+60286864 -> 60286392 [dir=back]
+
+60275520[ label="{STRING|}"]
+
+60286392[ label="{BASETYPE|}"]
+60286392 -> 60285920 [dir=back]
+60286392 -> 60275992 [dir=back]
+60286392 -> 60275048 [dir=back]
+60286392 -> 60275520 [dir=back]
+
+60284976[ label="{INT|}"]
+
+60285448[ label="{FLOAT|}"]
+
+60285920[ label="{NUMBER|}"]
+60285920 -> 60285448 [dir=back]
+60285920 -> 60284976 [dir=back]
+
+60275992[ label="{BOOL|}"]
+
+60275048[ label="{ID|}"]
+
+
+}
